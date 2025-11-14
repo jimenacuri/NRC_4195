@@ -1,6 +1,6 @@
 /* Footer general */
 .footer {
-  background-color: #222; /* Fondo oscuro para contraste */
+  background-color: #222;
   color: white;
   padding: 2rem 1rem;
   font-family: "Roboto", sans-serif;
@@ -12,7 +12,7 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 75rem; /* 1200px */
   margin: auto;
   gap: 2rem;
 }
@@ -20,19 +20,19 @@
 /* Marca o logotipo */
 .footer-brand {
   flex: 1;
-  min-width: 200px;
+  min-width: 12.5rem; /* 200px */
 }
 
 .footer-logo {
-  width: 60px;
+  width: 3.75rem; /* 60px */
   height: auto;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem; /* ya era rem */
 }
 
 /* Enlaces legales */
 .footer-links {
   flex: 1;
-  min-width: 200px;
+  min-width: 12.5rem; /* 200px */
 }
 
 .footer-links a {
@@ -49,13 +49,13 @@
 /* Redes sociales con íconos */
 .footer-social {
   flex: 1;
-  min-width: 200px;
+  min-width: 12.5rem; /* 200px */
 }
 
 .social-icon {
-  width: 32px;
-  height: 32px;
-  margin-right: 0.5rem;
+  width: 2rem; /* 32px */
+  height: 2rem; /* 32px */
+  margin-right: 0.5rem; /* ya era rem */
   transition: transform 0.2s ease-in-out;
 }
 
@@ -64,7 +64,8 @@
 }
 
 /* Responsive para pantallas pequeñas */
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
+  /* 768px */
   .footer-container {
     flex-direction: column;
     align-items: center;
@@ -72,6 +73,6 @@
   }
 
   .footer-social img {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem; /* ya era rem */
   }
 }
