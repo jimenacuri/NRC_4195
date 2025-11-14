@@ -35,7 +35,7 @@ body {
   padding: 0;
   position: absolute;
   list-style: none;
-  background-color: #2E7D32;
+  background-color: yellow;
 }
 
 .menu-horizontal li a:hover {
